@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
+
 int con;
 
 void holaMundo(int signalNumber) {
@@ -22,7 +23,7 @@ int main() {
     signal(2, noMeMates);
     con = 1;
 
-    while(1) {
+    while(con == 1) {
         printf("Estoy trabajando\n");
         sleep(1);
     }
