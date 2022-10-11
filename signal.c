@@ -30,3 +30,15 @@ int main() {
     printf("Nunca llega\n");
     return 0;
 }
+
+// gcc -o signal signal.c   (para compilar)
+// ./signal  (para correr)
+// ps -a (para ver el puerto)
+
+// kill -9 'puerto' (para matar la terminal)
+
+// github
+// git status
+// git add ''
+// git commit -m ''
+// git push origin main
